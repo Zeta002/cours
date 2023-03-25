@@ -1,0 +1,83 @@
+Exercice 1
+
+
+algorithme saisiChaineJusquaChaineVide
+
+debut
+    declarer str, strVide : string <- ""; 
+    declarer nbrMot : entier_naturel;
+
+    boucle
+        saisir (str);
+        si (str vaut "") sortie;
+    fboucle
+
+    afficher (str);
+    ligne_suivante;
+
+    si (str[0] ne_vaut_pas isLower(str[i-1]) OU_SINON str[i] ne_vaut_pas isUpper(str[i-1])
+        OU_SINON str[i] ne_vaut_pas isDigit(str[i-1]))
+        nbrMot = nbrMot + 1;
+    fsi
+
+    pour (i variant_de 0 a taille(str))
+    faire
+        si (str[i] ne_vaut_pas isLower(str[i-1]) OU_SINON str[i] ne_vaut_pas isUpper(str[i-1])
+        OU_SINON str[i] ne_vaut_pas isDigit(str[i-1]))
+            nbrMot = nbrMot + 1;
+        fsi
+    ffaire
+fin
+
+algorithme saisiChaineJusquaChaineVide2
+
+debut
+    declarer str, strVide : string <- ""; 
+    declarer nbrMot : entier_naturel;
+
+    boucle
+        saisir (str);
+        si (str vaut "") sortie;
+    fboucle
+
+    afficher (str);
+    ligne_suivante;
+
+    si (str[0] ne_vaut_pas isLower(str[i-1]) OU_SINON str[i] ne_vaut_pas isUpper(str[i-1]))
+        nbrMot = nbrMot + 1;
+    fsi
+
+    pour (i variant_de 0 a taille(str))
+    faire
+        si (str[i] ne_vaut_pas isLower(str[i-1]) OU_SINON str[i] ne_vaut_pas isUpper(str[i-1]))
+            nbrMot = nbrMot + 1;
+        fsi
+    ffaire
+fin
+
+
+algorithme saisiChaineJusquaChaineVide2
+
+debut
+    declarer str, strVide : string <- ""; 
+    declarer nbrMot : entier_naturel;
+
+    boucle
+        saisir (str);
+        si (str vaut "") sortie;
+    fboucle
+
+    afficher (str);
+    ligne_suivante;
+
+    si (str[0] ne_vaut_pas isLower(str[i+1]) OU_SINON str[i] ne_vaut_pas isUpper(str[i+1]))
+        nbrMot = nbrMot + 1;
+    fsi
+
+    pour (i variant_de 0 a taille(str))
+    faire
+        si (str[i] ne_vaut_pas isLower(str[i+1]) OU_SINON str[i] ne_vaut_pas isUpper(str[i+1]))
+            nbrMot = nbrMot + 1;
+        fsi
+    ffaire
+fin

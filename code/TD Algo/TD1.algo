@@ -1,0 +1,209 @@
+Exercice 1
+
+
+algorithme afficheBonjour
+
+    debut
+        afficher ("Bonjour")
+    fin
+
+
+Exercice 2
+
+
+algorithme saisiTextEtAfficher
+
+    debut
+        declarer chaine : string;
+        
+        afficher ("Saisir une string : ");
+        saisir (chaine);
+        
+        afficher (chaine);
+    fin
+
+Exercice 3
+
+
+algorithme polynomeDuSecondDegree
+
+    debut 
+        declarer a, b, c, X, resultat : entier_naturel;
+
+        afficher ("Saisir la valeur de a : ");
+        saisir (a);
+
+        afficher ("Saisir la valeur de b : ");
+        saisir (b);
+
+        afficher ("Saisir la valeur de c : ");
+        saisir (c);
+
+        afficher ("Saisir la valeur de X : ");
+        saisir (X);
+
+        resultat <- a*X*X + b*X + c;
+    fin
+
+
+    Exercice 4
+
+
+    algorithme racinesPolynomeDuSecondDegree
+
+    debut
+        declarer a, b, c : entier_naturel;
+
+        declarer delta, racine, racine1, racine2 : entier;
+
+        saisir (a);
+        saisir (b);
+        saisir (c);
+
+        delta <- b*b - 4*a*c;
+
+        si (delta vaut 0)
+        
+            racine <- -b / 2*a;
+            afficher (racine);
+        
+        sinon_si (delta > 0)
+
+            racine1 <- (-b - sqrt (delta)) / (2*a);
+            afficher ((racine1));
+            
+            racine2 <- (-b + sqrt (delta)) / (2*a);
+            afficher (racine2);
+
+        sinon
+
+            afficher ("Il n'y a aucune solution.")
+        
+        fsi
+    fin
+
+
+    Exercice 5
+
+
+    algorithme imc
+
+    debut
+        declarer P, T, imc : entier_naturel;
+
+        saisir (P);
+        saisir (T);
+
+        imc <- P / (T*T);
+
+        si (imc <= 25)
+
+            afficher ("Tout va bien")
+
+        sinon_si (imc >= 25 ET_ALORS imc <= 30)
+
+            afficher ("Il y a une tendance pour l'obésité")
+
+        sinon_si (imc > 30)
+
+            afficher ("Obésité certaine")
+
+        fsi
+    fin
+
+
+    Exercice 6
+
+
+    algorithme anneeBissextile
+
+    debut
+        declarer annee : entier;
+
+        saisir (anne);
+
+        si (modulo (annee, 4) ne_vaut_pas 0 ET_ALORS modulo (annee, 100) ne_vaut_pas 0 ET_ALORS modulo (annee, 400) vaut 0)
+
+            afficher ("L'annee saisie est bissextile")
+
+        fsi
+    fin
+
+
+    Exercice 7
+
+
+    algorithme triangleRectangle
+    
+    debut
+        declarer a, b, c : entier_naturel;
+
+        saisir (a);
+        saisir (b);
+        saisir (c);
+
+        si (a*a vaut b*b + c*c OU_SINON b*b vaut c*c + a*a OU_SINON c*c vaut a*a + b*b)
+
+            afficher ("Ce triangle est rectangle")
+
+        sinon
+
+            afficher ("Ce triangle n'est pas rectangle")
+
+        fsi
+    fin
+
+
+Exercice 8
+
+
+algorithme divisionPar3et5
+
+debut
+    declarer nbrSaisie : entier;
+
+    saisir (nbrSaisie);
+
+    si (modulo (nbrSaisie, 3) vaut 0)
+
+        afficher ("Le nombre saisie est divisible par 3")
+
+    sinon_si (modulo (nbrSaisie, 5) vaut 0)
+
+        afficher ("Le nombre saisie est divisible par 5")
+
+    sinon_si (modulo (nbrSaisie, 3) ne_vaut_pas  0 ET_ALORS modulo (nbrSaisie, 5) ne_vaut_pas 0)
+
+        afficher ("Le nombre saisie n'est divisible ni par 3, ni par 5")
+
+    sinon_si (modulo (nbrSaisie, 3) vaut 0 ET_ALORS modulo (nbrSaisie, 5) vaut 0)
+
+        afficher ("Le nombre saisie n'est pas divisible par 3 mais est divisible par 5")
+
+    fsi
+fin
+
+
+Exercice 9
+
+
+algorithme permutation
+
+debut
+    declarer str, str1 : string;
+    
+    declarer transition : string;
+
+    saisir (str);
+    saisir (str1);
+
+    afficher (str);
+    afficher (str1);
+
+    transition <- st1;
+    str1 <- str;
+    str <- transition;
+
+    afficher (str);
+    afficher (str1);
+fin

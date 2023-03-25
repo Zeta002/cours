@@ -1,0 +1,33 @@
+Code couleur
+	Fond en anthracite #303030	
+		Titre en écarlate #ed0000
+			sous titre en light coral #E78F8E
+ 				Text en blanc lunaire #f4fefe
+Jeux-Vidéos
+	Rocket League
+		Audio moment clutch "This is Rocket League !"
+	Minecraft
+
+	Hollow Knight
+
+	Pokémon écarlate / violet
+
+	Super Mario Odyssey
+
+	Super Mario 3D World
+Fonctionnalité
+	Une navigation
+	Des pages séparer
+		1 page de garde
+		1 page formulaire
+		1 page ou si l'ont va dessus le seul bouton de sortie se déaplace quand ont clique dessus
+		4 pages de contenues
+Police d'écriture
+	Genshin Impact
+	osu!
+	Minecraft
+	Celeste
+	Mario Kart 8 Deluxe
+	Jump King
+	Super Mario 64
+	

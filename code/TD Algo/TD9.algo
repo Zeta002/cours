@@ -1,0 +1,109 @@
+Exercice 1 Palindrome
+
+
+fonction isPalindrome (str : in string) renvoie booleen
+debut
+    declarer i : entier_naturel <- 0;
+    declarer j : entier_naturel <- taille(str);
+    
+    tant_que (i >= j)
+    faire
+        si (str[i] vaut str[j]) 
+            continue;
+        sinon
+            renvoie faux;
+        fsi
+        i <- i+1;
+        j <- j+1;
+    ffaire
+    renvoie vrai;
+fin
+
+fonction isPalindromeRecursive (str : in string, debut : in entier_naturel) renvoie booleen
+debut
+    si (debut > taille(str)/2) renvoie vrai;
+    fsi
+    sinon
+        si (str[i] vaut str[taille[str]-debut])
+            isPalindromeRecursive(str, debut+1);
+        sinon renvoie faux; 
+fin
+
+
+Exercice 2 puissance
+
+fonction puissEntRecurs (x : in entier_naturel, n : in entier) renvoie entier_naturel
+debut
+    declarer resultat : entier_naturel;
+    si  (n vaut 0) renvoie 1;
+    sinon_si (x vaut 0 ET_ALORS n != 0) renvoie 0;
+    fsi
+    si (n < 0) resultat <- 1/(puissEntRecurs(x, -n));
+    sinon resultat <- x*puissEntRecurs(x, n-1);
+    renvoie resultat;
+fin
+
+
+Exercice 3 Nombre romains
+
+
+fonction valNbRomain (str : in string, i : in entier_naturel) renvoie entier_naturel
+debut
+    declarer resultat : entier_naturel;
+    si (taille(str) vaut 1) renvoie valChRomain(str);
+    sinon_si taille(str) vaut 0 renvoie 0;
+    si (valChRomain(str[i]) >= valChRomain(str[i+1])) resultat <- resultat + valNbRomain(str, i);
+    si (valChRomain(str[i]) <= valChRomain(str[i+1])) resultat <- resultat - valNbRomain(str, i);
+fin
+
+
+Exercice 4 Doublement recursif
+
+
+Trace :
+
+Compilation :
+
+X = 3
+tmp = c
+y = ab
+tmp = b
+y = a
+tmp = a
+y = ""
+
+Affichage :
+
+out of range, il est claqué au sol votre algo!
+
+Exercice 5 Représentation des nombres en binaire
+
+
+procedure representBin(str : in string, i : in entier_naturel)
+debut
+    si (taille(str) vaut i) afficher(str);
+    sinon
+        str[i] <- '0';
+        representBin(str, i+1);
+        str[i] <- '1';
+        representBin(str, i+1);
+    fsi
+fin
+
+
+Exercice 6 Tour de Hanoi
+
+
+procedure hanoi (nbAnneaux : in entier_naturel, identifiants : in string)
+debut
+    declarer initial caractere <- identifiants[0];
+    declarer intermediaire caractere <- identifiants[1];
+    declarer final caractere <- identifiants[2];
+    declarer ordreFinal string <- initiale + intermediaire + final;
+    declarer ordre string;
+    si (ordre vaut ordreFinal)
+        sortir;
+    sinon
+        si (ordre ne_vaut_pas ordreFinal)
+            hanoi(nbAnneaux,)
+fin

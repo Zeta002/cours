@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #333;
+        color: white;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .game-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .game {
+        width: 200px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+      }
+
+      .game img {
+        width: 100%;
+      }
+
+      .game-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      .game-description {
+        font-size: 14px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to our video game website!</h1>
+    <div class="game-box">
+      <div class="game">
+        <img src="game1.jpg" alt="Game 1">
+        <div class="game-title">Game 1</div>
+        <div class="game-description">This is a description of game 1</div>
+      </div>
+      <div class="game">
+        <img src="game2.jpg" alt="Game 2">
+        <div class="game-title">Game 2</div>
+        <div class="game-description">This is a description of game 2</div>
+      </div>
+      <div class="game">
+        <img src="game3.jpg" alt="Game 3">
+        <div class="game-title">Game 3</div>
+        <div class="game-description">This is a description of game 3</div>
+      </div>
+    </div>
+  </body>
+</html>

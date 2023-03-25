@@ -1,0 +1,117 @@
+Exercice 1
+
+
+fonction estBienTrie (tab : in tableau_de entier) renvoie booleen
+
+debut
+    declarer i : entier_naturel <- 0;
+    
+    tant_que (i < taille (tab) - 1)
+    faire
+
+        si (tab[i] > tab[i+1])
+
+            renvoie vrai;
+
+        sinon
+
+            renvoie faux;
+
+        fsi
+    
+    ++i;
+
+    ffaire
+fin
+
+
+Exercice 2
+
+
+procedure triSelection (tab : in_out tableau_de entier)
+
+debut
+    declarer min : entier_naturel <- i + 1;
+
+    pour (i variant_de 0 a taille (tab) - 2)
+    faire
+
+        pour (j variant_de i + 2 a taille (tab) - 1)
+        faire
+
+            si (tab[j] < tab[min])
+
+                min <- j;
+
+            fsi
+
+        ffaire
+
+        permuter (tab[i], tab[min]);
+
+    ffaire
+fin
+
+
+Exercice 3
+
+
+procedure triBulles (tab : in entier)
+
+debut
+    tant_que (NON estBienTrie(tab))
+    faire
+        
+        pour (i variant_de 0 a taille (tab) - 1)
+        faire
+
+            si (tab[i] > tab[i+1])
+
+                permuter (tab[i], tab[i+1]);
+
+            fsi
+
+        ffaire
+
+    ffaire
+fin
+
+
+Exercice 4
+
+
+procedure triInsertion (tab : in_out tableau_de entier)
+
+debut
+    pour (i variant_de 0 a taille (tab) - 1)
+    faire
+        declarer intI : entier_naturel <- tab[i];
+        declarer indIns : entier_naturel <- i;
+
+        tant_que (indIns > 0 ET_ALORS tab[indIns-1] > intI)
+        faire
+
+            tab [indIns] <- tab[indIns-1];
+            indIns <- indIns - 1;
+
+        ffaire
+    
+        tab[indIns] <- intI;
+    ffaire
+fin
+
+Exercice 5
+
+
+fonction triComptage (tab : in tableau_de entier)
+
+pour (i variant_de 0 a taille (tab) - 1)
+
+
+Exercice 5
+
+procedure triParComptage (tab : in_out tableau_de entier_naturel)
+
+debut
+    Voir C++
+fin

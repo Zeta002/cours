@@ -1,0 +1,168 @@
+Exercice 1
+
+
+fonction isUpper (car : in caractere) renvoie booleen
+
+debut 
+    declarer maj : string <- "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    si (trouveCarDansString (car, maj) ne_vaut_pas taille (maj))
+        renvoie vrai;
+    sinon
+        renvoie faux;
+    fsi
+fin
+
+
+fonction isUpper2 (car : in caractere) renvoie booleen
+
+debut 
+    si ('A' <= car ET_ALORS car <= 'Z')
+        renvoie vrai;
+    sinon
+        renvoie faux;
+    fsi
+fin
+
+
+fonction isUpper3 (car : in caractere) renvoie booleen
+
+debut 
+    renvoie ('A' <= car ET_ALORS car <= 'Z');
+fin
+
+
+fonction isLower (car : in caractere) renvoie booleen
+
+debut 
+    renvoie ('a' <= car ET_ALORS car <= 'z');
+fin
+
+
+fonction isDigit (car : in caractere) renvoie booleen
+
+debut 
+    renvoie ('0' <= car ET_ALORS car <= '9');
+fin
+
+
+fonction isSpace (car : in caractere) renvoie booleen
+
+debut 
+    renvoie ((car vaut " ") OU_SINON (car vaut "\n") OU_SINON (car vaut "\r"));
+fin
+
+
+Exercice 2
+
+
+fonction compterDoublons (str : in string) renvoie entier_naturel
+
+debut
+    declarer cpt : entier_naturel <- 0;
+    pour (i variant_de 0 a taille (str)-2)
+    faire
+        si(isSpace (str[i])) continue;
+        si (str[i] vaut str[i+1])
+            cpt = cpt +1;
+        fsi
+    ffaire
+    renvoie cpt;
+fin
+
+
+fonction compterDoublons2 (str : in string) renvoie entier_naturel
+
+debut
+    declarer cpt : entier_naturel <- 0;
+    declarer i : entier_naturel <- 0;   
+    tant_que (i <= taille (str)-2)
+    faire      
+        si(NON isSpace (str[i]) ET_ALORS (str[i] vaut str[i+1]))
+            cpt <- cpt+1;
+            i <- i+1;
+        fsi
+    ffaire
+    renvoie cpt;
+fin
+
+
+fonction compterDoublons3 (str : in string) renvoie entier_naturel
+
+debut
+    declarer cpt : entier_naturel <- 0;
+    pour (i variant_de 0 a taille (str)-2)
+    faire
+        si((isSpace (str[i])) ET_ALORS (isSpace (str[i+1])) OU_SINON (str[i] vaut str[+1]))
+            cpt <- cpt+1;
+        fsi
+    ffaire
+    renvoie cpt;
+fin
+
+
+Exercice 3
+
+
+fonction findFirstDoublons (chaine : in string, start : in entier_naturel) renvoie entier_naturel
+
+debut 
+    declarer start : entier_naturel <- start;
+    pour (i variant_de 0 a taille(chaine)-2)
+    faire
+        si ((isSpace (chaine[i]) ET_ALORS isSpace (chaine[i+1]) OU_SINON (chaine[i] vaut chaine[i+1]))
+            renvoie chaine[i];
+        fsi
+    ffaire
+    renvoie taille(chaine);
+fin
+
+
+Exercice 4
+
+
+fonction findSubStrInStr (chaine : in string, searchStr : in string, start : in entier_naturel) renvoie entier_naturel
+
+debut
+    declarer firstAppearence : entier_naturel;
+    i <- start;
+    tant_que (i > taille(chaine))
+    faire
+        saisir (i);
+    ffaire
+    pour (i variant_de 0 a taille(chaine)-1)
+    faire
+        pour (j variant_de 0 a taille(searchStr)-1)
+        faire
+            si (str[i] vaut searchStr[i])
+                firstAppearence <- i;
+            fsi
+        ffaire
+        si (str[i] vaut chaine[i])
+            renvoie chaine[i];
+        fsi
+        renvoie firstAppearence;
+    ffaire
+    renvoie taille(chaine);
+fin
+
+algorithme jeSaisPas
+
+debut
+    boucle
+        declarer chaine : string;
+        declarer chaineSaisie : string;
+        declarer chaineVide : string <- "";
+        tant_que (chaineSaisie vaut chaineVide)
+        faire
+            saisir (chaineSaisie);
+        ffaire
+        afficher("\"");
+        afficher(chaine);
+        afficher("\"");
+        si(findSubStrInStr(chaine, chaineSaisie, 0) vaut taille(chaine))
+            afficher("La chaine de caractère n'a pas étais trouvé !")
+        sinon
+            afficher(findSubStrInStr(chaine, chaineSaisie, 0))
+        fsi
+    fboucle
+fin

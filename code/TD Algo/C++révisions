@@ -1,0 +1,61 @@
+fonction trieABulles (tabInt : out tableau_de entier) renvoie tableau_de entier
+debut
+    tant_que (estBienTrie(tabInt) vaut faux)
+    faire
+
+        pour (i variant_de 0 a taille (tabInt) - 2)
+        faire
+
+            si (tabInt[i] > tabInt[i+1])
+                permuter(tabInt[i], tabInt[i+1]);
+            fsi
+
+        ffaire
+
+    ffaire
+    renvoie tabInt;
+fin
+
+vector <int> trieABulles (int & tabInt)
+{
+    while (!tabInt.estBienTrie)
+    {
+        for (unsigned i=0; i < tabInt.size(); ++i)
+        {
+            if (tabInt[i] > tabInt[i+1]) swap(tabInt[i], tabInt[i+1]);
+        }
+    }
+    return tabInt;
+}
+
+string fonction chiffrementParTransposition (string & strEncrypt, const & unsigned clef)
+{
+    vector<vector<char>> tabEncrypt;
+    unsigned j=0;
+     unsigned cpt=0;
+    //si la str ne remplie par entièrement la matrice, rajouter des '*' pour combler
+    if (strEncrypt.size() % clef != 0)
+    {
+        unsigned combler=strEncrypt.size() % clef;
+        for (unsigned k=strEncrypt.size()-1; k >= combler; --k)
+        {
+            tabEncrypt[0][k] = '*';
+        }
+    }
+    //remplissage de la matrice case par case en sautant une ligne au bon moment
+    for (unsigned i=0; i < strEncrypt.size()-1; ++i)
+    {
+        tabEncrypt[i] = strEncrypt[i];
+        if (i == cpt+clef)
+        {
+            ++j;
+            cpt = cpt + clef;
+        }
+    }
+    //création de la nouvelle str encrypter
+    string strCrypt;
+    for (unsigned l=0; l > clef)
+    {
+        
+    }
+}

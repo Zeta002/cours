@@ -1,0 +1,398 @@
+Exercice 1
+
+
+algorithme affiche10FoisBonjourBouclePour
+
+debut
+    pour (i variant_de 0 a 9)
+    faire
+        
+        afficher ("Bonjour");
+
+    ffaire 
+fin
+
+algorithme affiche10FoisBonjourBoucleJusqua
+
+debut
+    jusqua (i vaut 9)
+    faire
+        
+        afficher ("Bonjour");
+        i <- i + 1;
+
+    ffaire
+fin
+
+algorithme affiche10FoisBonjourBoucleTant_que
+
+debut
+    tant_que (i < 10)
+    faire
+        
+        afficher ("Bonjour");
+        i <- i + 1;
+
+    ffaire
+fin
+
+algorithme affiche10FoisBonjourBoucleRepeterJusqua
+
+debut
+    repeter
+    faire
+
+        afficher ("Bonjour");
+        i <- i + 1;
+
+    ffaire
+
+    jusqua (i vaut 9)
+fin
+
+algorithme affiche10FoisBonjourBoucleRepeterBoucle
+
+debut
+    declarer cpt : entier_naturel <- 0;
+    
+    boucle
+
+        afficher ("Bonjour");
+        cpt <- cpt + 1;
+
+        si (cpt vaut 10)
+
+            sortie;
+
+        fsi
+    fboucle
+fin
+
+
+Exercice 2
+
+
+algorithme afficheStrSaisie
+
+debut
+    declarer str : string;
+
+    tant_que (str ne_vaut_pas "")
+    faire
+
+        afficher ("Saisir une string : ");
+        saisir (str);
+
+        afficher (str)
+
+    ffaire
+fin
+
+
+Exercice 3
+
+
+algorithme polynomeDeDegreN
+
+debut
+    declarer a, N, X, resultat : entier_naturel;
+
+    saisir (N);
+
+    declarer tabInt ; tableau_de entier <- N + 1;
+
+    pour (i variant_de 0 a N)
+    faire
+    
+    saisir (tabInt[i])
+
+    ffaire
+
+    saisir (X);
+
+    resultat <- a + puissance (a*X, N);
+
+    afficher (resultat);
+fin
+
+algorithme polynomeDeDegreN
+
+debut
+    declarer a, N, X, resultat, puissanceN : entier_naturel;
+
+    saisir (N);
+
+    declarer tabInt ; tableau_de entier <- N + 1;
+
+    pour (i variant_de 0 a N - 1)
+    faire
+    
+    saisir (tabInt[i])
+
+    ffaire
+
+    saisir (X);
+
+    pour (i variant_de 0 a N - 1)
+    faire
+
+        puissanceN <- a*X;
+
+    ffaire
+    
+    resultat <- a + puissanceN;
+
+    afficher (resultat);
+fin
+
+
+Exercice 4
+
+
+algorithme alphabet1
+
+debut
+    declarer alphabetMinuscule : string <- "abcdefghijklmnopqrstuvwxyz";
+    
+    pour (i variant_de 0 a 25)
+    faire
+
+        afficher (alphabetMinuscule[i]);
+        ligne_suivante;
+
+    ffaire
+fin
+
+
+Exercice 5
+
+
+algorithme alphabet2
+
+debut
+    declarer alphabetMajuscule : string <- "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    pour (i variant_de 0 a 25)
+    faire
+
+        afficher (alphabetMajuscule[i]);
+        ligne_suivante;
+
+    ffaire
+fin
+
+
+Exercice 6
+
+
+algorithme alphabet3
+
+debut
+    declarer alphabetMinuscule : string <- "abcdefghijklmnopqrstuvwxyz";
+    declarer alphabetMajuscule : string <- "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    pour (i variant_de 0 a 25)
+    faire
+
+        afficher (alphabetMinuscule[i]);
+        afficher (alphabetMajuscule[i]);
+        ligne_suivante;
+
+    ffaire
+fin
+
+
+Exercice 7
+
+
+algorithme alphabet4
+
+debut
+    declarer alphabetMinuscule : string <- "abcdefghijklmnopqrstuvwxyz";
+    declarer alphabetMajuscule : string <- "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    pour (i variant_de 25 a 0)
+    faire
+
+        afficher (alphabetMinuscule[i]);
+        afficher (alphabetMajuscule[i]);
+        ligne_suivante;
+
+    ffaire
+fin
+
+
+Exercice 8
+
+algorithme carrePlein
+
+debut
+    declarer cote : entier_naturel;
+
+    saisir (cote);
+
+    pour (i variant_de 0 a cote - 1)
+    faire
+
+        pour (j variant_de 0 a cote - 1)
+        faire
+            
+            afficher ('*');
+
+        ffaire
+
+        ligne_suivante;
+
+    ffaire
+fin
+
+algorithme carreVide
+
+debut
+    declarer cote : entier_naturel;
+
+    saisir (cote);
+
+    pour (i variant_de 0 a cote - 1)
+    faire
+
+        si (i vaut 0 OU_SINON j vaut cote -1)
+
+            pour (j variant_de 0 a cote - 1)
+            faire
+            
+                afficher ('*');
+
+            ffaire
+
+            ligne_suivante;
+
+        fsi
+
+    ffaire
+fin
+
+algorithme carrePleinStr
+
+debut
+    declarer cote : string;
+
+    saisir (cote);
+
+    pour (i variant_de 0 a taille (cote) - 1)
+    faire
+
+        pour (j variant_de 0 a taille (cote) - 1)
+        faire
+            
+            afficher ('*');
+
+        ffaire
+
+        ligne_suivante;
+
+    ffaire
+fin
+
+algorithme carreVideStr
+
+debut
+    declarer cote : string;
+
+    saisir (cote);
+
+    pour (i variant_de 0 a taille (cote) - 1)
+    faire
+
+        si (i vaut 0 OU_SINON i vaut taille (cote) -1)
+
+            pour (j variant_de 0 a taille (cote) - 1)
+            faire
+            
+                afficher ('*');
+
+            ffaire
+
+            ligne_suivante;
+
+        fsi
+
+    ffaire
+fin
+
+algorithme rectangleVide
+
+debut
+    declarer cote, longueur : entier_naturel;
+
+    saisir (cote);
+    saisir (longueur);
+
+    pour (i variant_de 0 a cote - 1)
+    faire
+
+        si (i vaut 0 OU_SINON i vaut cote -1)
+        
+            pour (j variant_de 0 a longueur - 1)
+            faire
+            
+                afficher ('*');
+
+            ffaire
+
+            ligne_suivante;
+
+        fsi
+
+    ffaire
+fin
+
+algorithme rectangleVideStr
+
+debut
+    declarer cote, longueur : string;
+
+    saisir (cote);
+    saisir (longueur);
+
+    pour (i variant_de 0 a taille (cote) - 1)
+    faire
+
+        si (i vaut 0 OU_SINON i vaut taille (cote) -1)
+        
+            pour (j variant_de 0 a taille (longueur) - 1)
+            faire
+            
+                afficher ('*');
+
+            ffaire
+
+            ligne_suivante;
+
+        fsi
+
+    ffaire
+fin
+
+algorithme rectanglePleinStr
+
+debut
+    declarer cote, longueur : string;
+
+    saisir (cote);
+    saisir (longueur);
+
+    pour (i variant_de 0 a taille (cote) - 1)
+    faire
+
+        pour (j variant_de 0 a taille (longueur) - 1)
+        faire
+            
+            afficher ('*');
+
+        ffaire
+
+        ligne_suivante;
+
+    ffaire
+fin

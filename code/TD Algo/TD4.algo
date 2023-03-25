@@ -1,0 +1,77 @@
+Exercice 1
+
+
+fonction saisiEntierSupX (nbrSaisie : in entier_naturel, messageErreur : in string, X : in entier_naturel) renvoie entier_naturel
+
+debut
+    si (nbrSaisie > X)
+
+        afficher ("Le nombre saisie est supérieur a la valeur de ");
+        afficher (X);
+
+    sinon
+
+        afficher (messageErreur);
+
+    fsi
+    
+    /*sinon_si (nbrSaisie vaut X)
+
+        afficher ("Le nombre saisie est égal a la valeur de ");
+        afficher (X);
+
+    sinon
+
+        afficher ("Le nombre saisie est inférieur a la valeur de ");
+        afficher (X);
+
+    fsi*/
+fin
+
+
+Exercice 2
+
+
+fonction find (val : in entier, tabInt : in tableau_de entier) renvoie entier_naturel
+
+debut
+    declarer premiereOccurence : entier_naturel;
+    
+    pour (i variant_de 0 a taille (tabInt))
+    faire
+
+        si (tabInt[i] vaut val)
+
+            premiereOccurence <- i;
+
+        fsi
+
+    ffaire
+    renvoie premiereOccurence;
+fin
+
+algorithme testFonctionFind
+
+debut
+    declarer tabInt : tableau_de entier;
+    declarer nbr : entier_naturel;
+    
+    saisir (nbr);
+
+    genereTabInt (tabInt, nbr);
+
+    find (3, tabInt);
+fin
+
+Trace :
+
+
+Compilation :
+
+saisir (nbr);
+n <- 5;
+
+
+
+
+Affichage :
