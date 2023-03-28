@@ -2,21 +2,11 @@ La mise en oeuvre d'un projet permet à une entitéde conduire un changement, d'
 
 # Définition du projet
 
-=
-
-==
-
-========
-
 Pour l'organisme international de normalisation, "Un projet est un processus unique qui consiste en un ensemble d'activité coordonnée et maitrisé comportant des dates de début et de fin entrepris dans le but d'atteindre un objectif conforme à des exigences spécifiques tel que les contraintes de délai / de coûts / de ressources."
 
---------
-
-=
+------------------------------------------
 
 # Les types de projet
-
-=
 
 Le projet est quaifié de grand projet, projet moyen ou petit projet en fonction du nombre de personnes parti premnante au projet, du budget aloué et de la durée de réalisation du projet.
 
@@ -27,6 +17,8 @@ Il existe **trois** types de projet :
 * Projet **produits / services** : réalisé en plusieurs exemplaires, exemple : création d'un produit / services, développement d'une certification de qualité etc...
 
 * Projet **organisationnel / évenementielle** : lié à un événement temporaire, exemple : organisation d'un service dans une entreprise, festival etc...
+
+--------------------------------------------
 
 # Les éléments constitutif du projet 
 
