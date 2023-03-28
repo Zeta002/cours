@@ -1,4 +1,4 @@
-La mise en oeuvre d'un projet permet à une entitéde conduire un changement, d'améliorer une situation existante, de proposer un nouveau produit ou une nouvelle prestation, de modifier son organisation ou de se mettre en comformité avec une nouvelles règlementation
+La mise en oeuvre d'un projet permet à une entité de conduire un changement, d'améliorer une situation existante, de proposer un nouveau produit ou une nouvelle prestation, de modifier son organisation ou de se mettre en comformité avec une nouvelles règlementation
 
 # Définition du projet
 
