@@ -22,7 +22,8 @@ Divers éléments doivent être défini afin d'établir une description précise
 
 	* Perimetre : inventaire de ce qui entre dans le projet et ce qui en est exclu
 
-	* Contrainte : elle concerne le budget, les délai, les considération matériel technique, la communication, ces points doivent être défini aussi clairement que possible selon les données existante car il permette d'envisagé si un projet est réalisable ou non
+	* Contrainte : elle concerne le budget, les délai, les considération matériel technique, la communication, ces points doivent être défini aussi clairement que possible selon les données existante car
+	  il permette d'envisagé si un projet est réalisable ou non
 
 	* Les enjeux : il se définisse comme ceux que l'organisation peux gagner ou perdre en réalisant le projet, exemple : gagner en image, sanction juridique, gagner ou perdre financièrement
 
