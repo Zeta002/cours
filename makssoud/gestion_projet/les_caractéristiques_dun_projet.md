@@ -4,7 +4,7 @@ La mise en oeuvre d'un projet permet à une entitéde conduire un changement, d'
 
 Pour l'organisme international de normalisation, "Un projet est un processus unique qui consiste en un ensemble d'activité coordonnée et maitrisé comportant des dates de début et de fin entrepris dans le but d'atteindre un objectif conforme à des exigences spécifiques tel que les contraintes de délai / de coûts / de ressources."
 
---
+--------
 
 =
 
