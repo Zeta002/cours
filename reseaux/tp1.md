@@ -78,16 +78,16 @@ Manchester :
        ^   ^   ^   ^   ^   ^   ^   ^
        0   1   0   0   0   1   1   1
        
- **VOIR EDIT FILE**
+**VOIR EDIT FILE**
  
- ## Exercice 4
+## Exercice 4
  
- ------------------------------
+------------------------------
  
- ### Question 1
+### Question 1
  
- 
- 
- ## Exercice 5
+
+
+## Exercice 5
  
  ---------------------------------
