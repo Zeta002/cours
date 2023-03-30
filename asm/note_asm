@@ -1,0 +1,5 @@
+$t0 - $t9 variable
+$s0 - $s7 variable qui ne sont pas censé bouger
+$a0 - $a3 paramètre de fonction
+
+pour passer le contenu d'une variable en paramètre, il faut le transférer dans $a0 pour l'utiliser comme paramètre de fonction

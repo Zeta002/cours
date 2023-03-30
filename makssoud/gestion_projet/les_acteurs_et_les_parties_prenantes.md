@@ -21,3 +21,10 @@ Dans une gestion de projet il y a plusieurs acteurs et parties prenantes qui int
 Il est important de prendre en compte tous ces acteurs & parties prenantes dans la gestion de projet en identifiant leur besoin & en communicant régulièrement avec eux tous au long du projet
 
 ![exemple](github.com/AngeloPORTELLIP22008750/cours/blob/main/makssoud/gestion_projet/Capture.PNG)
+
+**Les maîtrises d'ouvrages** : C'est une personnes ou moral nommé par la direction de l'entreprise pour laquel l'ouvrage est réalisé & qui sera le propriétaires du projet cad le commanditaire & il est 
+constitué par le comité de pilotage, par un groupe de dirigeant chargé de veiller au bon déroulement du projet, ce sont des décideurs qui vont mené les arbitrages nécessaires à a conduite du projet
+
+**MOA** : M pour maîtrise, O pour ouvrage & A pour le age de ouvrage. C'est un groupe d'acteurs constitué par un chef de projet & son équipes garant de la réalistation du projet
+
+**MOE** : M pour maitrise, O pour oeuvre & E pour le euvre de oeuvre. Il est choisi par le maître d'ouvrages, la maîtrise d'oeuvre peut-être sous-traité à un préstataire externe
