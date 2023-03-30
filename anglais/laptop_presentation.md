@@ -47,7 +47,7 @@ The product is very useful and will revolutionize the organizations of programme
 
 ## Question
 
-1. Why did you have choose this product ?
+1. Why did you choose this product ?
 
 2. How did you know all yout informations about this product ?
 
