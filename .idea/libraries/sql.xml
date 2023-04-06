@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sql">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sql/MementosSQLSuite.zip!/" />
+      <root url="jar://$PROJECT_DIR$/sql/Corrigés 4 et 5.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="favicon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dev_web/Projet site/css/favicon/faviconsHollowKnight2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/dev_web/Projet site/css/favicon/faviconsHollowKnight3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/dev_web/Projet site/css/favicon/favicons.zip!/" />
+      <root url="jar://$PROJECT_DIR$/dev_web/Projet site/css/favicon/faviconsHollowKnight1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
