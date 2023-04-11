@@ -14,7 +14,7 @@
 
 > Pas de note écrite, tous sur le Power Point
 
-> Temps : 3 - 5 minutes
+> Temps : 3 - 5 minutes (seul) 6 minutes (à deux)
 
 > BOPPP : Beautiful Object Power Point Presentation
 
