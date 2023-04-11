@@ -19,3 +19,9 @@
 > BOPPP : Beautiful Object Power Point Presentation
 
 > Il faut présenter un objet (Tesla car, software, etc...)
+
+### Com résumé de conférence Fake News
+
+> Résumé la conférence sur les Fake News
+
+> 1 page
