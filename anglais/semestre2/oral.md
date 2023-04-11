@@ -2,10 +2,10 @@
 
 ## Introduction
 
-Hello everybody. Here we are here to present you an incredible object. What's the object ?
+> Hello everybody. We are here today to present to you an wonderful object.
 
-**The Nintendo Switch !**
+> **The Nintendo Switch !**
 
-The Nintendo Switch is a console very versatile made by Nintendo, why is it versatile you'll ask ?
+> The Nintendo Switch is 101mm large by 144mm by long by 40,1mm high and weighs 97g.
 
-> Because she is transportable, you can play ether on
+> It features a Nintendo eShop to buy games (digital version) / DLC, a Nintendo Online for playing games online, a feature to see the latest game realased 
