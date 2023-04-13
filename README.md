@@ -8,6 +8,8 @@
 
 > Prendre des article seulement entre le 1er mars & 17 avril
 
+Date de rendu : **17 avril**
+
 ### Anglais oral
 
 > Voir la feuille que nous à passer la prof détaillant tous ce que nous devons écrire de l'object
@@ -20,8 +22,4 @@
 
 > Il faut présenter un objet (Tesla car, software, etc...)
 
-### Com résumé de conférence Fake News
-
-> Résumé la conférence sur les Fake News
-
-> 1 page
+Date de rendu : **4 mai**
