@@ -117,11 +117,15 @@ Le reste... : 8b 7c 01 02
 
 ### $1.$
 
-/2
+120 sous réseaux nécessite $2^7$ soit $7$ bit
+
+172.30.0.0/23
 
 ### $2.$
 
-1
+$2^9-2 = 510$
+
+Il y a donc 510 hôte disponible
 
 ### $3.1$
 
