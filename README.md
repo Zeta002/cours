@@ -1,6 +1,6 @@
 # Cours 1 année BUT Informatique
 
-## Prochains devoirs :
+## Prochains devoirs
 
 ### Com Revue de Presse
 
