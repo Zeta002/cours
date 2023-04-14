@@ -1,12 +1,14 @@
 # Cours 1 année BUT Informatique
 
-## Prochains devoirs :
+## Prochains devoirs
 
 ### Com Revue de Presse
 
 > Un titre différent de celui de l'article + 10 ligne de résumé + photo différente de celle de l'article + 3 - 5 ligne & le lien de l'article
 
 > Prendre des article seulement entre le 1er mars & 17 avril
+
+Date de rendu : **17 avril**
 
 ### Anglais oral
 
@@ -20,8 +22,4 @@
 
 > Il faut présenter un objet (Tesla car, software, etc...)
 
-### Com résumé de conférence Fake News
-
-> Résumé la conférence sur les Fake News
-
-> 1 page
+Date de rendu : **4 mai**
