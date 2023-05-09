@@ -6,6 +6,8 @@ Hello everybody, we are Aurore and Angelo and we are going to present you our BO
 
 The object highlighted is none other than the **Nintendo Switch!**
 
+A console is a kind of machine allowing you to play video games, this special console as the capacity to be transported, which is quite unique for a home console.
+
 The Nintendo Switch is 101mm large, 144mm long, 40,1mm high and weighs 97g.
 
 It features a Nintendo eShop to buy games (digital version) or DLC, a Nintendo Online for playing games online, a small aplication to know the last game realased on the console.
