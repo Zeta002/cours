@@ -1,0 +1,4 @@
+PV: 45
+Minor sort : 2
+Other: 3
+Exhaustion lvl: 1
